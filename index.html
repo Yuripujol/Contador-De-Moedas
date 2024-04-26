@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> conversor de moedas </title>
+</head>
+
+<body>
+
+    <img class="logo-gif" src="./assets/logo.gif" alt="logo-devclub">
+    <main>
+
+
+
+
+        <label>
+
+            Converter <b>de</b>
+
+            <select class="primeiro-select">
+                <option value="Real"> R$ Real Brasileiro </option>
+                <option value="Dolar">US$ Dólar Americano</option>
+                <option value="Euro"> € Euro </option>
+                <option value="Libra"> £ Libra </option>
+               
+            </select>
+
+        </label>
+
+        <label>
+
+            Converter <b>para</b>
+
+            <select class="select-moeda" id="trocar-moeda">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro"> € Euro </option>
+                <option value="libra"> £ Libra </option>
+                <option value="real"> R$ Real Brasileiro </option>
+
+
+            </select>
+
+        </label>
+
+        <label>
+
+            <b> Valor</b>
+
+            <input class="input-valor" id="imput-valor-dois" type="text" placeholder="R$ 10.000,00">
+
+        </label>
+
+        <button class="botão-converter">Converter</button>
+
+        <section>
+
+            <div>
+
+                <img class="logo-brasil" src="./assets/logo brasil.png" alt="logo-moeda-a-converter">
+
+                <p class="paragráfo-menor">Real</p>
+                <p class="paragráfo-valor-real" id="valor-moeda">R$ 0,00</p>
+
+            </div>
+
+            <img class="seta" src="./assets/Seta.png" alt="Seta">
+
+            <div>
+
+                <img class="logo-americana" src="./assets/logo americana.png" alt="logo-moeda-covertida">
+
+
+                <p id="troca-de-letra">Dólar Americano</p>
+                <p class="paragráfo-moeda-convertida" id="">R$ 0,00</p>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+</body>
+<script src="./scripts.js "></script>
+
+</html>

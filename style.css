@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  background-color: #8A51FC;
+}
+
+.logo-gif {
+
+  width: 30.0rem;
+  margin: 0 auto 1.6rem auto;
+  display: block;
+
+}
+
+main {
+
+  Width: 37.5rem;
+  Height: 71.2rem;
+  background: rgba(244, 244, 244, 1);
+  border-radius: 2.0rem;
+  display: flex;
+  flex-direction: column;
+  padding: 4.4rem 2.4rem 2.3rem;
+  margin: 0 auto 3.6rem auto;
+}
+
+
+
+label {
+
+  margin-bottom: 2.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: rgba(119, 119, 119, 1);
+}
+
+select,
+input {
+
+  width: 100%;
+  height: 4.8rem;
+  appearance: none;
+  border: 0.1rem solid rgba(187, 187, 187, 1);
+  border-radius: 0.4rem;
+  padding-left: 1.8rem;
+  color: rgba(85, 85, 85, 1);
+  font-weight: 700;
+}
+
+.logo-brasil {
+
+  height: 4.4rem;
+
+}
+
+.logo-americana {
+
+  height: 4.4rem;
+}
+
+div {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+button {
+
+  background-color: rgba(119, 47, 211, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 0.5rem;
+  width: 32.7rem;
+  height: 4.8rem;
+  border: none;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  cursor: pointer;
+}
+
+button:hover {
+
+  opacity: 0.8;
+
+}
+
+button:active {
+
+  opacity: 0.4;
+
+}
+
+section {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.6rem;
+  border: 1px solid rgba(119, 47, 211, 1);
+  border-radius: 2.0rem;
+  padding: 1.2rem;
+}
+
+.paragráfo-menor, #troca-de-letra {
+
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: rgba(119, 119, 119, 1);
+}
+
+
+
+.seta {
+
+  margin: 20px 0;
+}
+
+.paragráfo-valor-real,
+.paragráfo-moeda-convertida {
+
+  font-weight: 700;
+  font-size: 2.0rem;
+  line-height: 1.8rem;
+  color: rgba(85, 85, 85, 1);
+}
