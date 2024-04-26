@@ -18,7 +18,7 @@
 <br>
 <h2>Acesse o site no link a seguir:</h2>
 <br>
-<a href="https://yuripujol.github.io/Projeto-De-Responsividade-2/">Conversor De Moedas</a>
+<a href="https://yuripujol.github.io/Conversor-De-Moedas/">Conversor De Moedas</a>
 
 
 
