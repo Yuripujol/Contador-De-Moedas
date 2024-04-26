@@ -5,7 +5,7 @@
 <br>
 <h2>Veja os exemplos do conversor com cada moeda :</h2>
 <br>
-<img src="https://github.com/Yuripujol/Projeto-De-Responsividade-2/blob/main/Exemplos%20de%20responsividade%201.png?raw=true"/>
+<img src= "https://github.com/Yuripujol/Conversor-De-Moedas/blob/main/assets/Contador%20De%20Moedas.canva.png?raw=true"/>
 <br>
 <h2>Projeto foi feito através de: </h2>
 <br>
